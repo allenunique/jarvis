@@ -29,7 +29,7 @@ public class JarvisApplication {
 		pushMsg.setMsgId("1");
 		PushContext context = PushContext.build(pushMsg)
 				.setAckModel(AckModel.AUTO_ACK)
-				.setUserId("user-0")
+				.setUserId("user-1")
 				.setBroadcast(false)
 				//.setTags(Sets.newHashSet("test"))
 				//.setCondition("tags&&tags.indexOf('test')!=-1")
